@@ -2,9 +2,9 @@
 title:  "2022 SW마에스트로 13기 합격 후기 (서류, 코딩 테스트, 면접)"
 
 categories:
-  - Algorithm
+  - review
 tags:
-  - Algorithm
+  - review
 last_modified_at: 2022-10-20T08:06:00-05:00
 ---
 
