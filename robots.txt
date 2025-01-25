@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://gparkkii.github.io/sitemap-index.xml
-Host: https://gparkkii.github.io
+Sitemap: https://blog.chocochip.co.kr/sitemap-index.xml
+Host: https://blog.chocochip.co.kr
