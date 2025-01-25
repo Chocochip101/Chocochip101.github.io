@@ -1,9 +1,9 @@
 {
-  "name": "gparkkii-blog",
+  "name": "Chocochip-Blog",
   "private": true,
   "description": "A simple starter to make a good-looking personal blog",
   "version": "0.1.0",
-  "author": "JiYeon Park <jyp933@gmail.com>",
+  "author": "KiHO Kwoun <dev.chocochip@gmail.com>",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -64,9 +64,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gparkkii/gparkkii.github.io/"
+    "url": "https://github.com/Chocochip101/Chocochip101.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/gparkkii/gparkkii.github.io//issues"
+    "url": "https://github.com/Chocochip101/Chocochip101.github.io/issues"
   }
 }

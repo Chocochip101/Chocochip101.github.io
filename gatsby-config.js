@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gparkkii.log`,
-    description: `프론트엔드 엔지니어 지파키의 테크 블로그`,
-    author: `gparkkii`,
-    siteUrl: `https://gparkkii.github.io/`,
+    title: `Chocochip Blog`,
+    description: "Chocochip's Tech Blog",
+    author: `chocochip`,
+    siteUrl: `https://blog.chocochip.co.kr/`,
   },
   flags: {
     DEV_SSR: true,
@@ -73,7 +73,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://gparkkii.github.io//>',
+        siteUrl: '<https://blog.chocochip.co.kr//>',
         stripQueryString: true,
       },
     },

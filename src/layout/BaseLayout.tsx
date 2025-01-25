@@ -42,10 +42,10 @@ type BaseLayoutProps = {
 };
 
 const INITIAL_META = {
-  title: 'gparkkii.log',
-  description: '프론트엔드 엔지니어 지파키의 테크 블로그',
+  title: 'Chocochip Blog',
+  description: "Chocochips Tech Blog",
   image: '/static/profile-image.jpeg',
-  url: 'https://gparkkii.github.io/',
+  url: 'https://blog.chocochip.co.kr/',
 };
 
 const BaseLayout = ({ path, children, meta }: BaseLayoutProps) => {

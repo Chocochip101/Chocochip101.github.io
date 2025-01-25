@@ -51,11 +51,11 @@ const ContentHead = ({ title, date }: ContentHeadProps) => {
       <ToolBar>
         {/* FIXME: redirect to about page */}
         <a
-          href="https://github.com/gparkkii"
+          href="https://github.com/Chocochip101"
           target="_blank"
           rel="noopener norefferer"
         >
-          <AuthorInfo author="gparkkii" date={date} />
+          <AuthorInfo author="chocochip" date={date} />
         </a>
         <IconBox>
           <Tooltip tip="준비중...">
