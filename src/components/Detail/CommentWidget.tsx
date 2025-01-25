@@ -13,7 +13,7 @@ const UtteranceBox = styled.div`
 `;
 
 const src = 'https://utteranc.es/client.js';
-const repo = 'gparkkii/gparkkii.github.io';
+const repo = 'Chocochip101/Chocochip101.github.io';
 
 type UtterancesAttributesType = {
   src: string;
@@ -37,7 +37,7 @@ const CommentWidget: FunctionComponent = function () {
       src,
       repo,
       'issue-term': 'pathname',
-      label: 'Comment',
+      label: 'comments',
       theme: `github-light`,
       crossorigin: 'anonymous',
       async: 'true',
