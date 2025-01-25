@@ -37,7 +37,7 @@ const Footer = ({ expand }: FooterProps) => {
           Copyright ©chocochip All rights reserved.
         </Caption>
         <Caption textColor={theme.colors.light[800]}>
-          2025 | built with gatsby | Powered by gparkkii | Developed by Chocochip
+          2025 | Built with gatsby | Powered by gparkkii | Developed by Chocochip
         </Caption>
       </div>
       <a
