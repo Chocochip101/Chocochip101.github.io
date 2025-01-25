@@ -34,14 +34,14 @@ const Footer = ({ expand }: FooterProps) => {
     <FooterLayout expand={expand}>
       <div>
         <Caption textColor={theme.colors.dark[150]} style={{ marginBottom: 2 }}>
-          Copyright ©gparkkii All rights reserved.
+          Copyright ©chocochip All rights reserved.
         </Caption>
         <Caption textColor={theme.colors.light[800]}>
-          2023 | built with gatsby | Developed by gparkkii
+          2025 | built with gatsby | Powered by gparkkii | Developed by Chocochip
         </Caption>
       </div>
       <a
-        href="https://github.com/gparkkii"
+        href="https://github.com/Chocochip101"
         target="_blank"
         rel="noopener norefferer"
       >
