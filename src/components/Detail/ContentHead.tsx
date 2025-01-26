@@ -55,7 +55,7 @@ const ContentHead = ({ title, date }: ContentHeadProps) => {
           target="_blank"
           rel="noopener norefferer"
         >
-          <AuthorInfo author="chocochip" date={date} />
+          <AuthorInfo author="초코칩" date={date} />
         </a>
         <IconBox>
           <Tooltip tip="준비중...">
