@@ -1,26 +1,30 @@
 import styled from '@emotion/styled';
 import React, { createRef, FunctionComponent, useEffect } from 'react';
 
-const UtteranceBox = styled.div`
+const CommentBox = styled.div`
   width: 100%;
   margin-top: 60px;
   border-top: 2px solid ${({ theme }) => theme.colors.bluegray[300]};
   padding-top: 60px;
-  .utterances {
+  .giscus {
     max-width: 960px;
     width: 100%;
   }
 `;
 
-const src = 'https://utteranc.es/client.js';
-const repo = 'Chocochip101/Chocochip101.github.io';
-
-type UtterancesAttributesType = {
+type GiscusAttributesType = {
   src: string;
-  repo: string;
-  'issue-term': string;
-  label: string;
-  theme: string;
+  'data-repo': string;
+  'data-repo-id': string;
+  'data-category': string;
+  'data-category-id': string;
+  'data-mapping': string;
+  'data-strict': string;
+  'data-reactions-enabled': string;
+  'data-emit-metadata': string;
+  'data-input-position': string;
+  'data-theme': string;
+  'data-lang': string;
   crossorigin: string;
   async: string;
 };
@@ -31,26 +35,33 @@ const CommentWidget: FunctionComponent = function () {
   useEffect(() => {
     if (element.current === null) return;
 
-    const utterances: HTMLScriptElement = document.createElement('script');
+    const giscus: HTMLScriptElement = document.createElement('script');
 
-    const attributes: UtterancesAttributesType = {
-      src,
-      repo,
-      'issue-term': 'pathname',
-      label: 'comments',
-      theme: `github-light`,
+    const attributes: GiscusAttributesType = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'Chocochip101/Chocochip101.github.io',
+      'data-repo-id': 'R_kgDONvU42Q',
+      'data-category': 'Comments',
+      'data-category-id': 'DIC_kwDONvU42c4CmWbF',
+      'data-mapping': 'pathname',
+      'data-strict': '0',
+      'data-reactions-enabled': '1',
+      'data-emit-metadata': '0',
+      'data-input-position': 'bottom',
+      'data-theme': 'preferred_color_scheme',
+      'data-lang': 'ko',
       crossorigin: 'anonymous',
       async: 'true',
     };
 
     Object.entries(attributes).forEach(([key, value]) => {
-      utterances.setAttribute(key, value);
+      giscus.setAttribute(key, value);
     });
 
-    element.current.appendChild(utterances);
+    element.current.appendChild(giscus);
   }, []);
 
-  return <UtteranceBox ref={element} />;
+  return <CommentBox ref={element} />;
 };
 
 export default CommentWidget;
