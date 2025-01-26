@@ -44,6 +44,7 @@ export const globalStyle = css`
 
   img {
     border: 0;
+    max-width: 100%;
   }
 
   button {
