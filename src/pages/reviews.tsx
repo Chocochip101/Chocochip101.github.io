@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {graphql} from 'gatsby';
 import {IGatsbyImageData} from 'gatsby-plugin-image';
-import queryString, {ParsedQuery} from 'query-string';
 import {PostType} from 'types/Post.types';
 import {PATH} from '../routes/path';
 import BaseLayout from 'layout/BaseLayout';

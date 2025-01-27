@@ -6,7 +6,6 @@ import { PostType } from 'types/Post.types';
 import { PATH } from '../routes/path';
 import BaseLayout from 'layout/BaseLayout';
 import Blog from 'components/Blog';
-import { TagListProps } from 'components/Post/TagMenu';
 
 type IndexPageProps = {
   location: { search: string };
