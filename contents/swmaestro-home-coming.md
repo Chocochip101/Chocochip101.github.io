@@ -2,7 +2,7 @@
 date: '2022-10-22 18:20'
 title: 'SW마에스트로 발대식 및 웰컴 키트 톺아보기'
 tags: ['SW마에스트로', "후기"]
-summary: '2022 SW마에스트로 13기 합격 후기입니다.'
+summary: 'SW마에스트로 발대식 및 웰컴 키트 톺아보자.'
 thumbnail: './assets/swmaestro-logo.png'
 ---
 # SW마에스트로 발대식
