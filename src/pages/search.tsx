@@ -150,7 +150,7 @@ const search = ({
                 <Guidance2>무엇을 찾으시나요?</Guidance2>
                 <SearchContainer>
                     <SearchInput
-                        placeholder="검색어를 입력하세요"
+                        placeholder="검색할 태그를 입력하세요"
                         value={searchTerm}
                         onChange={e => setSearchTerm(e.target.value)}
                         onKeyPress={e => e.key === 'Enter' && handleSearch()}
