@@ -8,7 +8,7 @@ import Footer from './Footer';
 const MENU_INFO = [
   { title: 'Tech', link: PATH.index, disabled: false },
   { title: '후기', link: PATH.reviews, disabled: false },
-  { title: 'Project', link: PATH[404], disabled: true },
+  { title: '회고', link: PATH.retrospectives, disabled: false },
   { title: 'About', link: PATH[404], disabled: true },
   { title: 'Search', link: PATH.search, disabled: false },
 ];

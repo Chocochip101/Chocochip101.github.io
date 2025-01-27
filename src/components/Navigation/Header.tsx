@@ -90,9 +90,9 @@ const DesktopMenu = ({ path }: { path: string }) => {
         <Link to={PATH.reviews}>
           <NavMenu title="후기" active={path === PATH.reviews} />
         </Link>
-        <Tooltip tip="준비중...">
-          <NavMenu title="Project" disabled={true} active={false} />
-        </Tooltip>
+        <Link to={PATH.retrospectives}>
+          <NavMenu title="회고" active={path === PATH.retrospectives} />
+        </Link>
         <Tooltip tip="준비중...">
           <NavMenu title="About" disabled={true} active={false} />
         </Tooltip>
