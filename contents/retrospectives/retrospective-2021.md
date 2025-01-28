@@ -11,14 +11,14 @@ thumbnail: './assets/chocochip.jpg'
 # 2021년
 ## 블로그 시작
 2021년 1월 29일 백준 알고리즘 문제로 첫 게시물을 시작으로 1년째 블로그를 작성하고 있습니다. [YJY 친구](https://yjyoon-dev.github.io/)의 권유로 기록 및 복기용으로 블로그를 시작하게 됐습니다. 처음에는 순전히 개인적인 공부용으로 글을 게시했지만, 점차 누적 방문수가 많아지자 다양한 사람들에게 도움이 되고자 제가 아는 지식과 부족한 점을 찾아 채워 넣는 과정에서 성장을 많이 하게 되었습니다.
-![](https://velog.velcdn.com/images/chocochip/post/f926b896-236a-4a68-b660-f866637e933c/image.png)
+![](https://github.com/user-attachments/assets/946a914b-3e01-4645-b3ed-3a1cc4c6257b)
 
 ----
 ## 동아리 스터디 3등
 
 9월에 다양한 사람들과 딥러닝 공부를 하기 위해 4차 산업 동아리 TAVE에 가입했습니다. 동아리에서 만난 사람들과 함께 'Hand on Machine Learning'이라는 책을 통해 딥러닝을 공부했습니다. 각자 매 단원을 공부하고 랜덤으로 소단원에 대해 발표를 하며 학습하는 스터디였습니다. 팀 결성 전, 만남의 장에서 대단한 분들을 많이 뵀었고 우수 스터디 상은 어떤 팀이 받아도 이상하지 않다고 생각했기에 수상했을 때 더욱 기뻤습니다.
 
-<img width=300 src=https://velog.velcdn.com/images/chocochip/post/edffd587-0ea8-40e0-a1f7-9902b15b28f0/image.png>
+<img width=300 src=https://github.com/user-attachments/assets/cf172762-4563-4e43-8883-e53deb921292>
 팀장이라는 직책 덕분에 팀 대표로 수상 소감을 말할 수 있게 되어 좋았습니다. 역량이 부족한 팀장인데도 잘 따라준 스터디원들과 잘 이끌어준 OB분들께 다시 감사함을 전합니다.
 
 ---
@@ -27,20 +27,20 @@ thumbnail: './assets/chocochip.jpg'
 
 3월부터 시작한 한이음 멘토링 프로젝트 두 개가 11월에 마무리되었습니다. 우연히 두 프로젝트 모두 팀장의 직책을 맡게 되어 프로젝트를 이끌게 되었으나, 실무 경험과 지식의 부족으로 프로젝트 진행에 많은 어려움을 겪었습니다. 하지만, 팀원들의 도움과 멘토님의 멘토링과 피드백을 통해 성공적으로 프로젝트를 마무리할 수 있었습니다. 뿐만 아니라, 두 프로젝트 모두 한이음 공모전에서 수상할 수 있어 너무 기뻤습니다.
 
-![](https://velog.velcdn.com/images/chocochip/post/38bd216b-d92f-4a66-9591-1af81c23add5/image.png)
+![](https://github.com/user-attachments/assets/3fa164ba-1e8b-4fa6-9ce4-3a9d1bd1fad8)
 
 ## 백준 플레티넘 달성
 
 기본 자료 구조부터 PS 알고리즘을 공부했습니다. 약 1년 정도 공부했는데, 문제가 풀리지 않을 때 백준 경험치와 티어가 동기부여되었습니다. 대회 준비 및 코딩 테스트를 위해 준비했는데, 어느새 백준 플레티넘 티어를 달성했더군요.
 
-<img width=400 src=https://velog.velcdn.com/images/chocochip/post/3a6141c4-122e-4581-ad42-69871d3c703f/image.png>
+<img width=400 src=https://github.com/user-attachments/assets/3adcf94e-4a99-4f85-8ff1-13a9222471f0>
 
 ---
 
 ## NVIDIA 딥러닝 기초 과정 수료
 
 동아리에서 무려 500$짜리 강의를 무료로 들을 수 있는 기회가 있었습니다. NVIDIA의 딥러닝을 들어볼 수 있는 기회가 얼마나 있을까라는 생각에 듣게 되었습니다.
-![](https://velog.velcdn.com/images/chocochip/post/4b35624e-ba8b-41be-bf60-b869f944b1b3/image.png)
+![](https://github.com/user-attachments/assets/f1dd2ae4-fd66-497d-9658-93f4cf4ca726)
 고려대학교 대학원에 진학 중인 NVDIA 딥러닝 엠버서더분께 높은 수준의 강의를 들었고, 많은 도움을 받아 기초 과정을 무사히 수료할 수 있었습니다. 좋은 강의였기에 저한테 큰 도움도 됐으며, 저 또한 깊게 공부하고 싶다는 생각에 NVDIA DLI Course에서 진행하는 다양한 프로그램에 참여해볼 생각입니다!
 
 ---
@@ -61,7 +61,7 @@ thumbnail: './assets/chocochip.jpg'
 
 1월부터 2월 말까지 진행되는 KAIST 김재철 AI대학원 겨울 동계 연구인턴 모집이 있었습니다. 아무래도 대한민국의 대학원 중에서 제일 알아주는 KAIST에서 연구 인턴을 모집한다는 소식을 듣고 관심이 가게 되었습니다. (마침 그 시기에 바쁜 일도 딱히 없었습니다.) 동계 연구 인터 서류를 준비하기 위해 처음으로 CV라는 것도 작성해봤으며, 신청서를 작성할 때 제 경력 칸이 얼마나 초라한지 느낄 수 있었습니다.
 
-![](https://velog.velcdn.com/images/chocochip/post/3e43bd48-3d3b-4a4c-b5c1-4b641d9a25f2/image.png)
+![](https://github.com/user-attachments/assets/fd71ef52-e541-4fd0-8dbc-2fc8d0559abc)
 
 결과는 불합격이었습니다. 아무래도 명실상부 최고 대학원 중 하나이기에 논문 하나조차 써본 적 없는 학부생이 합격하기에는 벽이 높지 않았나 싶습니다. 심지어 제가 지원한 교수님들 모두 굉장히 평이 좋으신 분들이라 인기 랩실이라고 하더군요. 아쉽지만 인공지능 관련해서 다양한 경험을 쌓은 후에 다시 도전해야겠습니다.
 
@@ -70,7 +70,7 @@ thumbnail: './assets/chocochip.jpg'
 ## 당근 마켓 윈터테크 인턴
 
 당근 마켓에서 처음으로 윈터테크 인턴쉽을 진행했습니다. FE, BE, SRE 세 분야와 관련된 인턴을 모집 중이었으며, 일정은 1월 초부터 2월 말까지 진행되는 인턴쉽이었습니다. 저는 백엔드 분야를 지원했으며, 주로 다뤄본 프레임워크가 Spring Boot이기에 주 언어는 Java로 신청했습니다.
-![](https://velog.velcdn.com/images/chocochip/post/4dff82f4-5373-46cb-8c93-3380560d0a6f/image.png)
+![](https://github.com/user-attachments/assets/5153343e-7eb2-4488-854b-d58de3b312fa)
 
 결과는 불합격이었습니다. 아직 백엔드 개발자로서 역량이 부족함을 느꼈기에 더 공부하고 다양한 대외활동에 도전하여 경험을 쌓아보겠습니다.
 
