@@ -13,6 +13,7 @@ module.exports = {
     description: "Chocochip's Tech Blog",
     author: `chocochip`,
     siteUrl: `https://blog.chocochip.co.kr/`,
+    ogImage: `/og-image.png`,
   },
   flags: {
     DEV_SSR: true,
