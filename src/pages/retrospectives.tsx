@@ -50,7 +50,7 @@ const RetrospectivesPage = ({
     return (
         mounted && (
             <BaseLayout
-                path={PATH.reviews}
+                path={PATH.retrospectives}
                 meta={{title, description, url: siteUrl, image: publicURL}}
             >
                 {/* Blog */}
