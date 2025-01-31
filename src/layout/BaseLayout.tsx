@@ -79,13 +79,10 @@ const BaseLayout = ({path, children, meta}: BaseLayoutProps) => {
                     property="og:site_name"
                     content={meta ? meta.title : INITIAL_META.title}
                 />
-                <meta
-                    name="google-site-verification"
-                    content="AeVWzvBApSe4tJz0xn1wSTpJBQJb-QLALeMbZ3y9yV4"
-                />
             </Helmet>
             <Global styles={globalStyle}/>
             <Header path={path}/>
+            <meta name="google-site-verification" content="AeVWzvBApSe4tJz0xn1wSTpJBQJb-QLALeMbZ3y9yV4"/>
             <Body>{children}</Body>
             <Footer/>
         </ThemeProvider>
