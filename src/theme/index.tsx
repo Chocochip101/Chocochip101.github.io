@@ -7,9 +7,6 @@ export * from './breakpoints';
 
 export const lightTheme = {
   backgroundColor: light.default,
-  postCard: {
-    hover: light[50],
-  },
   text: {
     primary: primary.default,
     white: light.default,

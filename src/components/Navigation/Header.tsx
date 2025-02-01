@@ -93,9 +93,9 @@ const DesktopMenu = ({ path }: { path: string }) => {
         <Link to={PATH.retrospectives}>
           <NavMenu title="회고" active={path === PATH.retrospectives} />
         </Link>
-        <Tooltip tip="준비중...">
-          <NavMenu title="About" disabled={true} active={false} />
-        </Tooltip>
+        <Link to={PATH.about}>
+          <NavMenu title="About" active={path === PATH.about}  />
+        </Link>
       </NavMenuBox>
       <IconWrapper>
         {path !== PATH.search ? (

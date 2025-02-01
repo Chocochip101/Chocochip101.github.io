@@ -44,7 +44,7 @@ type BaseLayoutProps = {
 const INITIAL_META = {
     title: 'Chocochip Blog',
     description: "Chocochips Tech Blog",
-    image: '/static/profile-image.jpeg',
+    image: '/static/og-image.jpeg',
     url: 'https://blog.chocochip.co.kr/',
 };
 
@@ -72,7 +72,7 @@ const BaseLayout = ({path, children, meta}: BaseLayoutProps) => {
                 />
                 <meta
                     property="og:image"
-                    content={meta ? meta.image : INITIAL_META.image}
+                    content={INITIAL_META.image}
                 />
                 <meta property="og:url" content={meta ? meta.url : INITIAL_META.url}/>
                 <meta
