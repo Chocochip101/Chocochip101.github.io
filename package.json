@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "KiHO Kwoun <dev.chocochip@gmail.com>",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && cp static/googledf0314dd89a2e42b.html public/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
