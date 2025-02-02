@@ -26,6 +26,13 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-0QMW8FV8PM`,
+        head: true,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         icon: 'src/images/g_favicon.png',
