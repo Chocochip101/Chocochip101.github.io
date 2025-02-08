@@ -26,6 +26,12 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-5268261440879988`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: `G-0QMW8FV8PM`,
