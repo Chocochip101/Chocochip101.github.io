@@ -14,7 +14,6 @@ const ExtraCurricularTitle = styled.h2`
 const ExtraCurricularItem = styled.div`
     margin-bottom: 12px;
     padding: 10px;
-    border-left: 4px solid ${({theme}) => theme.colors.dark[200]};
     background: ${({theme}) => theme.lightTheme.backgroundColor};
     border-radius: 8px;
 `;
@@ -29,7 +28,6 @@ const ExtraCurricularHeader = styled.div`
 const ActivityName = styled.h3`
     font-size: 1.5rem;
     font-weight: bold;
-    color: ${({theme}) => theme.colors.dark[200]};
 `;
 
 const Role = styled.p`

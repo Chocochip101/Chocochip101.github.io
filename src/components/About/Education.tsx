@@ -14,7 +14,6 @@ const EducationTitle = styled.h2`
 const EducationItem = styled.div`
     margin-bottom: 12px;
     padding: 10px;
-    border-left: 4px solid ${({ theme }) => theme.colors.secondary[200]};
     background: ${({ theme }) => theme.lightTheme.backgroundColor};
     border-radius: 8px;
 `;
@@ -29,7 +28,6 @@ const EducationHeader = styled.div`
 const OrganizationName = styled.h3`
     font-size: 1.5rem;
     font-weight: bold;
-    color: ${({ theme }) => theme.colors.secondary[500]};
 `;
 
 const Position = styled.p`

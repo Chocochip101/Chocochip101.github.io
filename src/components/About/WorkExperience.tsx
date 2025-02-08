@@ -14,7 +14,6 @@ const ExperienceTitle = styled.h2`
 const ExperienceItem = styled.div`
     margin-bottom: 12px;
     padding: 10px;
-    border-left: 4px solid ${({theme}) => theme.colors.primary[100]};
     background: ${({theme}) => theme.lightTheme.backgroundColor};
     border-radius: 8px;
 `;
@@ -29,7 +28,6 @@ const ExperienceHeader = styled.div`
 const CompanyName = styled.h3`
     font-size: 1.5rem;
     font-weight: bold;
-    color: ${({theme}) => theme.colors.primary[100]};
 `;
 
 const Role = styled.p`
