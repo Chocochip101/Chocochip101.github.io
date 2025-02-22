@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import React from 'react';
 import { Link } from 'gatsby';
-import { PATH } from '../../routes/path';
+import { PATH } from 'routes/path';
 import Menu from './Menu';
 import Footer from './Footer';
 
@@ -14,29 +14,29 @@ const MENU_INFO = [
 ];
 
 const DrawerWrapper = styled.div<{ visible: boolean }>`
-  visibility: ${props => (props.visible ? 'visible' : 'hidden')};
-  opacity: ${props => (props.visible ? 100 : 0)};
-  z-index: ${props => (props.visible ? 9998 : -1)};
+    visibility: ${props => (props.visible ? 'visible' : 'hidden')};
+    opacity: ${props => (props.visible ? 100 : 0)};
+    z-index: ${props => (props.visible ? 9998 : -1)};
 
-  position: fixed;
+    position: fixed;
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 
-  padding: 0px 16px;
-  padding-top: 72px; // padding top header
+    padding: 0 16px;
+    padding-top: 72px; // padding top header
 
-  background-color: ${({ theme }) => theme.colors.light[50]};
+    background-color: ${({theme}) => theme.colors.light[50]};
 `;
 
 const DrawerMenu = styled.div`

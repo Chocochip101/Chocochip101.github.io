@@ -7,7 +7,7 @@ import NavMenu from './NavMenu';
 import Drawer from './Drawer';
 import Logo from '../Common/Logo';
 import IconButton from '../Controls/IconButton';
-import { useResponsive } from '../../hooks/useResponsive';
+import { useResponsive } from 'hooks/useResponsive';
 
 const HeaderLayout = styled.header`
   position: fixed;
