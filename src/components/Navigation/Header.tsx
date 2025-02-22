@@ -7,7 +7,6 @@ import NavMenu from './NavMenu';
 import Drawer from './Drawer';
 import Logo from '../Common/Logo';
 import IconButton from '../Controls/IconButton';
-import Tooltip from '../Controls/Tooltip';
 import { useResponsive } from '../../hooks/useResponsive';
 
 const HeaderLayout = styled.header`
@@ -84,8 +83,8 @@ const DesktopMenu = ({ path }: { path: string }) => {
   return (
     <>
       <NavMenuBox>
-        <Link to={PATH.index}>
-          <NavMenu title="Tech" active={path === PATH.index} />
+        <Link to={PATH.tech}>
+          <NavMenu title="tech" active={path === PATH.tech} />
         </Link>
         <Link to={PATH.reviews}>
           <NavMenu title="후기" active={path === PATH.reviews} />

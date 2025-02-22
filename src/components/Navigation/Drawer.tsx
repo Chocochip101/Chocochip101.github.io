@@ -6,7 +6,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 
 const MENU_INFO = [
-  { title: 'Tech', link: PATH.index, disabled: false },
+  { title: 'tech', link: PATH.tech, disabled: false },
   { title: '후기', link: PATH.reviews, disabled: false },
   { title: '회고', link: PATH.retrospectives, disabled: false },
   { title: 'About', link: PATH.about, disabled: false },

@@ -1,5 +1,6 @@
 export const PATH = {
   index: '/',
+  tech: '/tech',
   reviews: "/reviews",
   retrospectives: "/retrospectives",
   search: '/search',

@@ -3,8 +3,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { PATH } from 'routes/path';
 import { theme, mediaQuery } from 'theme/index';
-import { Headline, Summary } from 'styles/typography';
-import BlogFilter from './BlogFilter';
+import { Headline } from 'styles/typography';
 
 const BlogHeaderWrapper = styled.div`
   display: flex;
@@ -80,7 +79,7 @@ const BlogHeader = ({ selectedTag }: BlogHeaderProps) => {
           <Link to={PATH.index}>
             <LineAnimation>
               <Headline textColor={theme.colors.primary.default}>
-                #Tech
+                #All
               </Headline>
             </LineAnimation>
           </Link>
