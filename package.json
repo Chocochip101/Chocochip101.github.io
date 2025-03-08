@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && cp static/googledf0314dd89a2e42b.html public/ && gh-pages -d public -b deploy --add --cname blog.chocochip.co.kr"
+    "deploy": "gatsby build && cp static/googledf0314dd89a2e42b.html public/ && gh-pages -d public -b deploy --add --cname chocochip.co.kr"
   },
   "dependencies": {
     "@emotion/core": "^11.0.0",
