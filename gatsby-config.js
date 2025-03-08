@@ -12,7 +12,7 @@ module.exports = {
     title: `Chocochip Blog`,
     description: "Chocochip's Tech Blog",
     author: `chocochip`,
-    siteUrl: `https://blog.chocochip.co.kr/`,
+    siteUrl: `https://chocochip.co.kr/`,
     ogImage: `/og-image.png`,
   },
   flags: {
@@ -87,7 +87,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://blog.chocochip.co.kr//>',
+        siteUrl: '<https://chocochip.co.kr//>',
         stripQueryString: true,
       },
     },

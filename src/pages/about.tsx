@@ -60,7 +60,7 @@ const AboutPage = ({
         <BaseLayout path={PATH.about} meta={{title, description, url: siteUrl, image: publicURL}}>
             <AboutPageWrapper>
                 <Profile imageData={gatsbyImageData} name="Kiho Kwoun" role="Software Engineer"
-                         website="blog.chocochip.co.kr" url="https://blog.chocochip.co.kr" />
+                         website="chocochip.co.kr" url="https://chocochip.co.kr" />
                 <Introduce description={"Developer who wants to grow by sharing knowledge with others."}></Introduce>
                 <Contact github="github.com/Chocochip101" email="dev.chocochip@gmail.com" linkedin="linkedin.com/in/chocochip101/"/>
                 <WorkExperience/>

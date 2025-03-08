@@ -45,7 +45,7 @@ const INITIAL_META = {
     title: 'Chocochip Blog',
     description: "Chocochips Tech Blog",
     image: '/static/og-image.jpeg',
-    url: 'https://blog.chocochip.co.kr/',
+    url: 'https://chocochip.co.kr/',
 };
 
 const BaseLayout = ({path, children, meta}: BaseLayoutProps) => {

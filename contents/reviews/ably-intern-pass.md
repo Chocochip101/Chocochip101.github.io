@@ -25,7 +25,7 @@ thumbnail: './assets/ably-logo.jpg'
 
 서류 제출 과정에서 특이했던 점은, 내가 몰입해서 해결한 문제에 대한 글 한편의 링크를 올렸어야 했다.
 
-마침 우테코의 테크니컬 라이팅 미션을 통해 팀 프로젝트에서 [커버링 인덱스로 API를 최적화](https://blog.chocochip.co.kr/tech/covering-index-api-optimization/)한 경험을 글로 작성을 했었다.
+마침 우테코의 테크니컬 라이팅 미션을 통해 팀 프로젝트에서 [커버링 인덱스로 API를 최적화](https://chocochip.co.kr/tech/covering-index-api-optimization/)한 경험을 글로 작성을 했었다.
 
 해당 글의 내용과 퀄리티가 나의 문제 해결력을 어필할 수 있을거라 판단하여 해당 글을 링크로 첨부했다.
 
