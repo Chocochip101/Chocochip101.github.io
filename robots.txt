@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://blog.chocochip.co.kr/sitemap-index.xml
-Host: https://blog.chocochip.co.kr
+Sitemap: https://chocochip.co.kr/sitemap-index.xml
+Host: https://chocochip.co.kr
