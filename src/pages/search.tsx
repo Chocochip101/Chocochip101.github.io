@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import {PATH} from '../routes/path';
+import {PATH} from 'routes/path';
 import SearchLayout from '../layout/SearchLayout';
-import {Body, Guidance1, Guidance2, Subtitle} from '../styles/typography';
+import {Body, Guidance1, Guidance2, Subtitle} from 'styles/typography';
 import styled from '@emotion/styled';
 import {mediaQuery, theme} from '../theme';
-import {TagListProps} from '../components/Post/TagMenu';
-import {PostType} from '../@types/Post.types';
+import {TagListProps} from 'components/Post/TagMenu';
+import {PostType} from 'types/Post.types';
 import {graphql, Link, navigate} from 'gatsby';
 
 const Container = styled.div`
@@ -90,7 +90,7 @@ const SearchButton = styled.button`
     cursor: pointer;
 
     &:hover {
-        background-color: ${({theme}) => theme.colors.primary.hover};
+        background-color: ${({theme}) => theme.colors.primary.default};
     }
 
     ${mediaQuery.sm} {
