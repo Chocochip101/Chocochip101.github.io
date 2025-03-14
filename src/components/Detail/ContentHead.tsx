@@ -42,11 +42,34 @@ interface ContentHeadProps {
 
 const ContentHead = ({title, date}: ContentHeadProps) => {
     const [isCopied, setIsCopied] = useState(false);
+    const [isShared, setIsShared] = useState(false);
 
     const copyToClipBoard = () => {
         navigator.clipboard.writeText(window.location.href);
         setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000); // 2초 후 원래 상태로 복귀
+        setTimeout(() => setIsCopied(false), 2000); // 2초 후 원래 상태로
+    };
+
+    const shareContent = async () => {
+        const shareData = {
+            title: title, // 페이지 제목
+            text: '이 페이지를 확인해보세요!', // 공유 메시지
+            url: window.location.href, // 현재 URL
+        };
+
+        if (navigator.share && typeof navigator.share === 'function') {
+            try {
+                await navigator.share(shareData);
+                setIsShared(true);
+                setTimeout(() => setIsShared(false), 2000);
+            } catch (err) {
+                console.error('공유 실패:', err);
+            }
+        } else {
+            navigator.clipboard.writeText(window.location.href);
+            setIsShared(true);
+            setTimeout(() => setIsShared(false), 2000);
+        }
     };
 
     return (
@@ -61,11 +84,12 @@ const ContentHead = ({title, date}: ContentHeadProps) => {
                     <AuthorInfo author="초코칩" date={date}/>
                 </a>
                 <IconBox>
-                    <Tooltip tip="준비중...">
+                    <Tooltip width={108} tip={isShared ? "공유됨" : "공유하기"} isCopied={isShared}>
                         <IconButton
                             size="xs"
                             icon="share"
-                            onClick={() => console.log('share!')}
+                            onClick={shareContent}
+                            isCopied={isShared}
                         />
                     </Tooltip>
                     <Margin/>
