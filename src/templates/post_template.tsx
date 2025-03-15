@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, {FunctionComponent, useEffect, useState} from 'react';
 import styled from '@emotion/styled';
 import BaseLayout from 'layout/BaseLayout';
 import PostLayout from 'layout/PostLayout';
@@ -6,19 +6,19 @@ import ContentHead from 'components/Detail/ContentHead';
 import ContentBody from 'components/Detail/ContentBody';
 import CommentWidget from 'components/Detail/CommentWidget';
 import TOC from 'components/Detail/TOC';
-import { graphql } from 'gatsby';
+import {graphql} from 'gatsby';
 
 const ContentWrapper = styled.div`
     display: flex;
     justify-content: center;
-    gap: 50px; /* 간격 증가로 TOC 오른쪽 이동 */
+    gap: 50px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 
     @media (max-width: 768px) {
         flex-direction: column;
-        gap: 20px; /* 모바일에서 간격 줄임 */
+        gap: 20px;
         padding: 0 15px;
     }
 `;
@@ -63,11 +63,11 @@ type PostTemplateProps = {
     };
 };
 
-const PostTemplate: FunctionComponent<PostTemplateProps> = function ({
-                                                                         path,
-                                                                         data,
-                                                                         location,
-                                                                     }: PostTemplateProps) {
+const PostTemplate: FunctionComponent<PostTemplateProps> = ({
+                                                                path,
+                                                                data,
+                                                                location,
+                                                            }: PostTemplateProps) => {
     const {
         node: {
             html,
@@ -77,12 +77,31 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = function ({
                 date,
                 tags,
                 thumbnail: {
-                    childImageSharp: { gatsbyImageData },
+                    childImageSharp: {gatsbyImageData},
                     publicURL,
                 },
             },
         },
     } = data.allMarkdownRemark.edges[0];
+
+    // 화면 크기 상태 관리
+    const [isMobile, setIsMobile] = useState(false);
+
+    // 화면 크기 감지
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        // 초기 실행
+        handleResize();
+
+        // 리사이즈 이벤트 리스너 추가
+        window.addEventListener('resize', handleResize);
+
+        // cleanup
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     return (
         <BaseLayout
@@ -95,14 +114,14 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = function ({
             }}
         >
             <PostLayout>
-                <ContentHead title={title} date={date} thumbnail={gatsbyImageData} />
+                <ContentHead title={title} date={date} thumbnail={gatsbyImageData}/>
                 <ContentWrapper>
                     <MainContent>
-                        <ContentBody html={html} thumbnail={gatsbyImageData} />
+                        <ContentBody html={html} thumbnail={gatsbyImageData}/>
                     </MainContent>
-                    <TOC html={html} />
+                    {!isMobile && <TOC html={html}/>} {/* 모바일에서는 TOC 숨김 */}
                 </ContentWrapper>
-                <CommentWidget /> {/* CommentWidget를 ContentWrapper 밖으로 이동 */}
+                <CommentWidget/>
             </PostLayout>
         </BaseLayout>
     );

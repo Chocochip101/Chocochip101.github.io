@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from '@emotion/styled';
 
 const TOCWrapper = styled.div`
     position: sticky;
-    top: 120px;
-    width: 250px;
+    top: 11rem;
+    width: 8rem;
     max-height: calc(100vh - 140px);
     overflow-y: auto;
-    padding: 15px;
+    padding: 10px;
     background-color: #ffffff;
     border-left: 1px solid #e0e0e0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -34,18 +34,18 @@ const TOCList = styled.ul`
 `;
 
 const TOCItem = styled.li<{ level: number }>`
-    margin-left: ${({ level }) => (level - 1) * 12}px;
+    margin-left: ${({level}) => (level - 1) * 12}px;
     margin-bottom: 6px;
     font-size: 14px;
 
     @media (max-width: 768px) {
-        margin-left: ${({ level }) => (level - 1) * 10}px;
+        margin-left: ${({level}) => (level - 1) * 10}px;
     }
 `;
 
 const TOCLink = styled.a<{ active?: boolean }>`
     text-decoration: none;
-    color: ${({ active }) => (active ? '#007bff' : '#555')};
+    color: ${({active}) => (active ? '#007bff' : '#555')};
     transition: color 0.2s ease;
     cursor: pointer;
 
@@ -54,7 +54,7 @@ const TOCLink = styled.a<{ active?: boolean }>`
     }
 
     &:visited {
-        color: ${({ active }) => (active ? '#007bff' : '#555')};
+        color: ${({active}) => (active ? '#007bff' : '#555')};
     }
 `;
 
@@ -68,7 +68,7 @@ interface TOCProps {
     html: string;
 }
 
-const TOC: React.FC<TOCProps> = ({ html }) => {
+const TOC: React.FC<TOCProps> = ({html}) => {
     const [toc, setToc] = useState<TOCItem[]>([]);
     const [activeId, setActiveId] = useState<string>('');
 
@@ -83,7 +83,7 @@ const TOC: React.FC<TOCProps> = ({ html }) => {
                 heading.id ||
                 `${text.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}-${index}`;
             heading.id = id;
-            return { id, text, level };
+            return {id, text, level};
         });
         setToc(tocItems);
 
@@ -95,7 +95,7 @@ const TOC: React.FC<TOCProps> = ({ html }) => {
                     }
                 });
             },
-            { rootMargin: '-20% 0px -80% 0px' }
+            {rootMargin: '-20% 0px -80% 0px'}
         );
 
         tocItems.forEach((item) => {
@@ -111,7 +111,7 @@ const TOC: React.FC<TOCProps> = ({ html }) => {
         if (element) {
             const offset = 80;
             const y = element.getBoundingClientRect().top + window.scrollY - offset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
+            window.scrollTo({top: y, behavior: 'smooth'});
         }
     };
 
