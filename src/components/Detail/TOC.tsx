@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 const TOCWrapper = styled.div`
     position: sticky;
     top: 11rem;
-    width: 8rem;
+    width: 10rem;
     max-height: calc(100vh - 140px);
     overflow-y: auto;
     padding: 10px;
